@@ -18,40 +18,32 @@ public class TheStack {
 	private int stackSize;
 
 	// Sets stack as empty
-
 	private int topOfStack = -1;
 
 	TheStack(int size){
 
 		stackSize = size;
-
 		stackArray = new String[size];
 
 		// Assigns the value of -1 to every value in the array
 		// so I control what gets printed to screen
-
 		Arrays.fill(stackArray, "-1");
-
 	}
 
 	public void push(String input){
 
-
 		if(topOfStack+1 < stackSize){
-
 			topOfStack++;
-
 			stackArray[topOfStack] = input;
 
 		} else System.out.println("Sorry But the Stack is Full");
 
 		displayTheStack();
-
 		System.out.println("PUSH " + input + " Was Added to the Stack\n");
 
 	}
 
-	public String pop(){
+	public void pop(){
 
 		if(topOfStack >= 0){
 
@@ -60,32 +52,23 @@ public class TheStack {
 			System.out.println("POP " + stackArray[topOfStack] + " Was Removed From the Stack\n");
 
 			// Just like in memory an item isn't deleted, but instead is just not available
-
 			stackArray[topOfStack] = "-1"; // Assigns -1 so the value won't appear
-
-			return stackArray[topOfStack--];
-
+			topOfStack--;
+//			return stackArray[topOfStack--];
 
 		} else {
 
 			displayTheStack();
-
 			System.out.println("Sorry But the Stack is Empty");
-
-			return "-1";
+//			return "-1";
 		}
-
-
 	}
 
-	public String peek(){
+	public void peek(){
 
 		displayTheStack();
-
 		System.out.println("PEEK " + stackArray[topOfStack] + " Is at the Top of the Stack\n");
-
-		return stackArray[topOfStack];
-
+//		return stackArray[topOfStack];
 	}
 
 	public void pushMany(String multipleValues){
@@ -93,21 +76,15 @@ public class TheStack {
 		String[] tempString = multipleValues.split(" ");
 
 		for(int i = 0; i < tempString.length; i++){
-
 			push(tempString[i]);
-
 		}
-
 	}
 
 	public void popAll(){
 
 		for(int i = topOfStack; i >= 0; i--){
-
 			pop();
-
 		}
-
 	}
 
 	public void popDisplayAll(){
@@ -123,7 +100,6 @@ public class TheStack {
 		System.out.println("The Reverse: " + theReverse);
 
 		popAll();
-
 	}
 
 	public void displayTheStack(){
@@ -178,6 +154,7 @@ public class TheStack {
 
 		theStack.pop();
 		theStack.pop();
+		theStack.push("210");
 		theStack.pop();
 
 		// Add many to the stack
