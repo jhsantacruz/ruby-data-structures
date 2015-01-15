@@ -35,14 +35,42 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TheStack.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TheStack.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TheStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.8279221" vertical-offset="389" max-vertical-offset="2715">
-              <caret line="101" column="13" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="348" max-vertical-offset="1185">
+              <caret line="147" column="0" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
               <folding>
                 <element signature="e#0#3320#0" expanded="true" />
+                <element signature="method#TheStack#0;class#TheStack#0" expanded="false" />
+                <element signature="method#push#0;class#TheStack#0" expanded="false" />
+                <element signature="method#pop#0;class#TheStack#0" expanded="false" />
+                <element signature="method#peek#0;class#TheStack#0" expanded="false" />
+                <element signature="method#pushMany#0;class#TheStack#0" expanded="false" />
+                <element signature="method#popAll#0;class#TheStack#0" expanded="false" />
+                <element signature="method#popDisplayAll#0;class#TheStack#0" expanded="false" />
+                <element signature="method#displayTheStack#0;class#TheStack#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkList.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/LinkList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="2.461039" vertical-offset="1094" max-vertical-offset="2700">
+              <caret line="174" column="1" selection-start-line="174" selection-start-column="1" selection-end-line="174" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Link.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Link.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="479" max-vertical-offset="1095">
+              <caret line="49" column="85" selection-start-line="49" selection-start-column="84" selection-end-line="49" selection-end-column="85" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -55,6 +83,8 @@
         <option value="$PROJECT_DIR$/src/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/Stackie.java" />
         <option value="$PROJECT_DIR$/src/TheStack.java" />
+        <option value="$PROJECT_DIR$/src/Link.java" />
+        <option value="$PROJECT_DIR$/src/LinkList.java" />
       </list>
     </option>
   </component>
@@ -426,7 +456,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2496318" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25376594" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25376594" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -452,7 +482,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -477,13 +507,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Link.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="479" max-vertical-offset="1095">
+          <caret line="49" column="85" selection-start-line="49" selection-start-column="84" selection-end-line="49" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/TheStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.8279221" vertical-offset="389" max-vertical-offset="2715">
-          <caret line="101" column="13" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="348" max-vertical-offset="1185">
+          <caret line="147" column="0" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
           <folding>
             <element signature="e#0#3320#0" expanded="true" />
+            <element signature="method#TheStack#0;class#TheStack#0" expanded="false" />
+            <element signature="method#push#0;class#TheStack#0" expanded="false" />
+            <element signature="method#pop#0;class#TheStack#0" expanded="false" />
+            <element signature="method#peek#0;class#TheStack#0" expanded="false" />
+            <element signature="method#pushMany#0;class#TheStack#0" expanded="false" />
+            <element signature="method#popAll#0;class#TheStack#0" expanded="false" />
+            <element signature="method#popDisplayAll#0;class#TheStack#0" expanded="false" />
+            <element signature="method#displayTheStack#0;class#TheStack#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LinkList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.461039" vertical-offset="1094" max-vertical-offset="2700">
+          <caret line="174" column="1" selection-start-line="174" selection-start-column="1" selection-end-line="174" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
